@@ -757,6 +757,18 @@ var SocketIO = require('socket.io').listen(global.server, {
 			admin.categories.update(data, socket);
 		});
 
+		socket.on('api:admin.categories.getWhitelist', function(cid, callback) {
+			admin.categories.whitelist.get(cid, callback);
+		});
+
+		socket.on('api:admin.categories.whitelist.add', function(data, callback) {
+			admin.categories.whitelist.add(data.gid, data.cid, data.list, callback);
+		});
+
+		socket.on('api:admin.categories.whitelist.remove', function(data, callback) {
+			admin.categories.whitelist.remove(data.gid, data.cid, data.list, callback);
+		});
+
 		socket.on('api:admin.user.makeAdmin', function(theirid) {
 			if(uid && uid > 0) {
 				admin.user.makeAdmin(uid, theirid, socket);

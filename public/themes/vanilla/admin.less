@@ -39,6 +39,70 @@
 		}
 	}
 
+	/* Category Privileges Modal */
+	#catpriv {
+		h3 {
+			margin: 0.5em 0;
+			text-align: center;
+		}
+
+		span.badge {
+			&.error {
+				background: #900;
+			}
+
+			&.success {
+				background: #050;
+			}
+		}
+
+		ul {
+			padding: 0;
+
+			li {
+				list-style-type: none;
+			}
+
+			&#catpriv-read, &#catpriv-write {
+				li {
+					.inline-block;
+					margin: 0 0.5em 0.5em 0;
+				}
+			}
+
+			&#catpriv-groups {
+				max-height: 350px;
+				overflow-y: auto;
+
+				h4 {
+					font-size: 16px;
+					font-weight: bold;
+					margin: 0.25em 0;
+				}
+
+				p {
+					font-size: 12px;
+				}
+
+				li {
+					background: rgb(250, 250, 250);
+					border: 1px solid rgb(225, 225, 225);
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+					padding: 0.5em;
+					margin-bottom: 1em;
+					.pointer;
+
+					&.active {
+						background: #d9edf7;
+						border: 1px solid #bce8f1;
+					}
+				}
+			}
+		}
+	}
+
 	.themes {
 		margin: 0;
 		padding: 0;
