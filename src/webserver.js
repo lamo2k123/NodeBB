@@ -11,6 +11,7 @@ var express = require('express'),
 	fs = require('fs'),
 
 	user = require('./user.js'),
+	Groups = require('./groups'),
 	categories = require('./categories.js'),
 	posts = require('./posts.js'),
 	topics = require('./topics.js'),

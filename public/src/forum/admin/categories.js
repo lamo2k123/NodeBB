@@ -281,7 +281,10 @@ jQuery('.blockclass').each(function() {
 
 								catpriv_info.removeClass().addClass('success badge').html('<i class="icon-ok"></i> Saved');
 							} else catpriv_info.removeClass().addClass('error badge').html('An error was encountered...');
-						})
+						});
+					})
+					.on('click', '[data-dismiss]', function() {
+						modalCatpriv.modal('hide');
 					});
 			});
 	});
