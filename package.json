@@ -27,7 +27,7 @@
     "passport-facebook": "0.1.5",
     "less-middleware": "0.1.12",
     "marked": "0.2.8",
-    "bcrypt": "0.7.5",
+    "bcrypt": "5.0.0",
     "async": "0.2.8",
     "node-imagemagick": "0.1.8",
     "gravatar": "1.0.6",
