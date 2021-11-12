@@ -13,7 +13,7 @@
     "test": "mocha ./tests"
   },
   "dependencies": {
-    "socket.io": "~0.9.16",
+    "socket.io": "~1.0.1",
     "redis": "0.8.3",
     "express": "3.2.0",
     "express-namespace": "~0.1.1",
@@ -39,7 +39,7 @@
     "winston": "~0.7.2",
     "rss": "~0.2.0",
     "prompt": "~0.2.11",
-    "uglify-js": "~2.4.0",
+    "uglify-js": "~3.14.3",
     "validator": "~1.5.1",
     "nodebb-plugin-mentions": "~0.1.14",
     "nodebb-plugin-markdown": "~0.1.8",
