@@ -25,7 +25,7 @@
     "passport-twitter": "0.1.5",
     "passport-google-oauth": "0.1.5",
     "passport-facebook": "0.1.5",
-    "less-middleware": "0.1.12",
+    "less-middleware": "2.2.0",
     "marked": "0.2.8",
     "bcrypt": "0.7.5",
     "async": "0.2.8",
